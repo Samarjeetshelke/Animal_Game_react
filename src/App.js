@@ -10,7 +10,7 @@ export default function App() {
   };
 
   function getRandomAnimal() {
-    const ani = ["dog", "cat", "horse", "bird", "Crow"];
+    const ani = ["bird", "cat", "cow", "dog", "gator", "horse"];
 
     return ani[Math.floor(Math.random() * ani.length)];
   }
